@@ -19,7 +19,6 @@ include "conn.php";
 
 $query = "SELECT id, parent_id, name FROM NavMenu ORDER BY parent_id";
 $result = mysqli_query($conn,$query);
-
 $parent = 0;
 $parent_stack = array();
 $children = array();
