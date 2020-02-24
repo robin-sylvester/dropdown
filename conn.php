@@ -1,7 +1,7 @@
 <?php
 $servername = "localhost";
-$username = "petar";
-$password = "PASSWORD";
+$username = "username";
+$password = "password";
 $database = "dropdown";
 
 $conn = mysqli_connect($servername, $username, $password, $database);
@@ -9,5 +9,5 @@ $conn = mysqli_connect($servername, $username, $password, $database);
 if (!$conn) {
     die("Connection failed: " . mysqli_connect_error());
 }
-//echo "Connected successfully" . "<br />";
+//echo "Connected successfully" . "\n";
 ?>
